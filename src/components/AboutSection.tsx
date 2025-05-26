@@ -79,15 +79,15 @@ const AboutSection = () => {
           >
             <div className="grid grid-cols-2 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-white mb-2">2020</div>
+                <div className="text-3xl font-bold text-white mb-2">2025</div>
                 <div className="text-[#A7B4C2]">Founded</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-white mb-2">50+</div>
+                <div className="text-3xl font-bold text-white mb-2">3+</div>
                 <div className="text-[#A7B4C2]">Countries</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-white mb-2">10K+</div>
+                <div className="text-3xl font-bold text-white mb-2">1K+</div>
                 <div className="text-[#A7B4C2]">Active Users</div>
               </div>
               <div>
