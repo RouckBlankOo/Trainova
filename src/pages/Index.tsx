@@ -187,7 +187,7 @@ const Index = () => {
               transition={{ delay: 0.1 * index, duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#2F4157] to-[#223043] bg-clip-text text-transparent mb-2">
+              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#CACACAFF] to-[#F3F3F3FF] bg-clip-text text-transparent mb-2">
                 {stat.number}
               </div>
               <div className="text-[#A7B4C2] text-sm md:text-base">
