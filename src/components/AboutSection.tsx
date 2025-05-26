@@ -107,8 +107,8 @@ const AboutSection = () => {
               transition={{ duration: 0.6, delay: 0.1 * index }}
               viewport={{ once: true }}
             >
-              <Card className="text-center border-[#223043] hover:border-[#2F4157] transition-all duration-300 bg-[#223043]">
-                <CardContent className="p-8">
+              <Card className="text-center border-[#223043] hover:border-[#2F4157] transition-all duration-300 bg-[#223043] h-full flex flex-col">
+                <CardContent className="p-8 h-full flex flex-col">
                   <div className="w-16 h-16 bg-gradient-to-br from-[#2F4157] to-[#223043] rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <value.icon className="h-8 w-8 text-white" />
                   </div>
