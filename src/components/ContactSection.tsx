@@ -57,9 +57,9 @@ const ContactSection = () => {
               transition={{ duration: 0.6, delay: 0.1 * idx }}
               viewport={{ once: true }}
             >
-              <Card className="border-[#223043] hover:border-[#2F4157] transition-all duration-300 bg-[#223043]">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
+              <Card className="border-[#223043] hover:border-[#2F4157] transition-all duration-300 bg-[#223043] h-full flex flex-col">
+                <CardContent className="p-6 h-full flex flex-col">
+                  <div className="flex items-start space-x-4 flex-1">
                     <div className="w-12 h-12 bg-gradient-to-br from-[#2F4157] to-[#223043] rounded-xl flex items-center justify-center flex-shrink-0">
                       <info.icon className="h-6 w-6 text-white" />
                     </div>
